@@ -1,0 +1,34 @@
+#content {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+}
+.cell {
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+.cell.black {
+  background: #ccc;
+}
+
+.cell.man {
+  background: blue;
+}
+
+.cell.block {
+  background: green;
+}
+
+.cell.floor {
+  background: yellow;
+}
+.cell.dragBlock {
+  background: gray;
+}
